@@ -40,10 +40,6 @@ app.use(
   })
 );
 
-app.get("/", (req, res) => {
-  res.send("🚀 API is running...");
-});
-
 // ✅ Routes
 app.use("/api", router);
 
