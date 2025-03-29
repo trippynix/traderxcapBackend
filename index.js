@@ -50,6 +50,7 @@ connectDB()
     app.listen(PORT, () => {
       console.log(`🚀 Connected to DB`);
       console.log(`🌍 Server is running on port ${PORT}...`);
+      return "Connected";
     });
   })
   .catch((err) => {
